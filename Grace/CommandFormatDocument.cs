@@ -37,8 +37,8 @@ namespace Grace
         /// <param name="commandService">Command service to add command to, not null.</param>
         private CommandFormatDocument(AsyncPackage package, OleMenuCommandService commandService)
         {
-            //this.package = package ?? throw new ArgumentNullException(nameof(package));
-            //commandService = commandService ?? throw new ArgumentNullException(nameof(commandService));
+            this.package = package ?? throw new ArgumentNullException(nameof(package));
+            commandService = commandService ?? throw new ArgumentNullException(nameof(commandService));
 
             var menuCommandID = new CommandID(CommandSet, CommandId);
             var menuItem = new MenuCommand(this.Execute, menuCommandID);
