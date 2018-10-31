@@ -73,7 +73,10 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="Resources\CommandFormatDocument.png" />
-    <Content Include="Resources\VSPackageGrace.ico" />
+    <Content Include="Resources\VSPackageGrace.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="stylesheet.css" />
     <VSCTCompile Include="VSPackageGrace.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
