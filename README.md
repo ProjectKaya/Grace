@@ -5,7 +5,7 @@
 
 <!-- Update the VS Gallery link after you upload the VSIX-->
 Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
-or get the [CI build](http://vsixgallery.com/extension/Grace.9e2700ba-b625-44f6-870c-754c0ceec3a4/).
+or get the [CI build](http://vsixgallery.com/extension/Grace.9e2700ba-b625-44f6-870c-754c0ceec3a5/).
 
 ---------------------------------------
 

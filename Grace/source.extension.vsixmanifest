@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Grace.9e2700ba-b625-44f6-870c-754c0ceec3a4" Version="1.0" Language="en-US" Publisher="Erkan Kaya" />
+        <Identity Id="Grace.9e2700ba-b625-44f6-870c-754c0ceec3a5" Version="1.0" Language="en-US" Publisher="Erkan Kaya" />
         <DisplayName>Grace</DisplayName>
         <Description xml:space="preserve">Empty VSIX Project.</Description>
         <MoreInfo>https://github.com/ProjectKaya/Grace</MoreInfo>
